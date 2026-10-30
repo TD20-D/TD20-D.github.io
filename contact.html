@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | TD</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="contact-page">
+  <header class="topbar">
+    <nav class="nav container">
+      <a class="brand" href="index.html">My <span>Portfolio</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="contact.html">Contact Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="contact-banner"></div>
+  <main class="contact-wrap container">
+    <section class="contact-heading">
+      <div class="send-icon">➤</div>
+      <h1>Contact Me</h1>
+      <div class="heading-line"></div>
+      <p>I'd love to hear from you!</p>
+    </section>
+
+    <section class="form-card">
+      <h2><span class="form-icon">✉</span> Get in Touch</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="fullName">Full Name <b>*</b></label>
+          <div class="input-wrap"><span>♙</span><input id="fullName" name="fullName" type="text" placeholder="Enter your full name"></div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address <b>*</b></label>
+          <div class="input-wrap"><span>✉</span><input id="email" name="email" type="email" placeholder="Enter your email address"></div>
+        </div>
+        <div class="form-group">
+          <label for="country">Country <b>*</b></label>
+          <div class="input-wrap"><span>◎</span><input id="country" name="country" type="text" placeholder="Enter your country"></div>
+        </div>
+        <div class="form-group">
+          <label for="comments">Comments <b>*</b></label>
+          <div class="input-wrap textarea-wrap"><span>☏</span><textarea id="comments" name="comments" rows="4" placeholder="Write your comments here..."></textarea></div>
+        </div>
+        <button class="submit-button" type="submit"><span>➤</span> Submit</button>
+        <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="stay-connected">
+      <div class="heading-line"></div>
+      <h2><span>⬡</span> Stay Connected</h2>
+      <p>Feel free to reach out through the form above<br>or via my university email.</p>
+      <a class="small-pill" href="mailto:YOUR_UNIVERSITY_EMAIL@cit.just.edu.jo">✉ &nbsp; thdawah24@cit.just.edu.jo</a>
+    </section>
+  </main>
+
+  <footer class="footer contact-footer">
+    <p><a href="index.html">⌂ &nbsp; Home</a> &nbsp; | &nbsp; <a href="contact.html">Contact Me</a></p>
+    <p>© 2026 Teebah Hasan Omar Dawah &nbsp; | &nbsp; CS Student</p>
+  </footer>
+</body>
+</html>
